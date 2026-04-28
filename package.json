@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "um tutorial de introdução ao backend",
+  "homepage": "https://github.com/HelberEduardo/project#readme",
+  "bugs": {
+    "url": "https://github.com/HelberEduardo/project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelberEduardo/project.git"
+  },
+  "license": "ISC",
+  "author": "Helber",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
